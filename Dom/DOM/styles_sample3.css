@@ -1,0 +1,12 @@
+:root {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color:#3d3d3d;
+  }
+  
+  img{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}

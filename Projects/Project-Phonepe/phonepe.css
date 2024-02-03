@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+img {
+    width: 150px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5);
+    font-size: 1.2rem;
+
+}
+
+li {
+    list-style: none;
+
+
+
+}
+
+header {
+    width: 1550px;
+    min-height: 60vh;
+    background-color: #6739B6;
+    position: relative;
+
+}
+
+.Heading-sec {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    flex: wrap;
+
+}
+
+.nav-links {
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    position: absolute;
+    right: 40px;
+
+
+
+}
+
+
+.Content {
+
+    color: #fff;
+    position: absolute;
+    left: 40px;
+    bottom: 120px;
+
+
+}
+
+.Content h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    margin: 25px;
+    position: absolute;
+    left: 50px;
+
+
+}
+
+.image {
+    width: 70%;
+    transform: rotate(10deg);
+    position: absolute;
+    right: -400px;
+    bottom: 10px;
+
+}
+
+
+#apple {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+
+
+}
+
+#apple1 {
+    margin-left: 2px;
+}
+
+
+
+
+
+.icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    padding: 10px 35px;
+    margin: 5px;
+
+
+}
+
+.nav-links li a:hover {
+    color: black;
+    transition: all 0.4s ease 0s;
+}
+
+.Bars {
+    display: none;
+    color: #fff;
+    position: relative;
+    right: 35px;
+    bottom: 10px;
+    visibility: none;
+    cursor: pointer;
+}
+
+
+.white-colored-section {
+    background-color: #fff;
+    width: 100%;
+
+}
+
+.card {
+    align-items: center;
+    transition: 1s;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px lightgray;
+  
+    
+}
+.grey-colored-section {
+    width: 1550px;
+    background-color: lightgray;
+
+}
+
+.profile {
+    padding: 15px 0;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.merchandise {
+    width: 100%;
+}
+
+.merchandise-card {
+    width: 100px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.merchandise-img {
+    height: 30px;
+}
+
+
+/*.flexbox{
+    width:100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+}
+
+
+.card-body{
+    margin-top: 30px;
+}
+.para{
+    margin-top: 10px;
+}
+
+
+
+.bg{
+    width:50px;
+}*/
+
+/*@media only screen and (max-width:1425px) {
+    .nav-links {
+        display: none;
+        width: 0%;
+        position: absolute;
+        flex-direction: column;
+        background-color: #8160b9;
+        right: 0;
+        top: 7vh;
+        padding: 1rem 0;
+        transition: all 0.4s ease 0s;
+    }
+
+    .Bars {
+         display: block; 
+    }
+}
+
+.nav-show{
+    width: 100%;
+}

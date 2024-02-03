@@ -1,0 +1,14 @@
+body{
+    background-color: #D2DEF2;
+}
+:root {
+    font-size: 16px;
+    color:#3d3d3d;
+  }
+  .green{
+    color: #32C888;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .big{
+    font-size: 400%;
+  }
